@@ -1,0 +1,75 @@
+/*.myMenu li {
+    display:inline-block;
+    margin: 10px;
+    color: #000;
+    background:#fff;
+    background: rgba(255,255,255, 0.3);
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+.myMenu li.active{
+    background:#666;
+    background: rgba(255,255,255, 1);
+    color: #000;
+}
+.myMenu li a{
+    text-decoration:none;
+    color: #000;
+}
+.myMenu li.active a:hover{
+    color: #000;
+}
+.myMenu li:hover{
+    background: rgba(255,255,255, 0.8);
+}
+.myMenu li a,
+.myMenu li.active a{
+    padding: 9px 18px;
+    display:block;
+}
+.myMenu li.active a{
+    color: #000;
+}
+.myMenu{
+    position:fixed;
+    top:0;
+    left:0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin:0;
+}*/
+
+.multiscroll-tooltip{
+    white-space: nowrap;
+}
+
+.ms-left .session1{
+	background:url(../imgs/p_img5_L.png)no-repeat top left;
+	background-size:cover;
+}
+
+.ms-right .session1{
+	background:url(../imgs/p_img5_R.png)no-repeat top left;
+	background-size:cover;
+}
+
+/*.ms-right .session1{
+	background:url(../imgs/p_img1_R.png)no-repeat top left;
+	background-size:cover;
+}
+
+.ms-left .session1{
+	background:url(../imgs/p_img1_L.png)no-repeat top right;
+	background-size:cover;
+}*/
+.ms-right .session2{
+	background:url(../imgs/p_img2_R.png)no-repeat top left;
+	background-size:cover;
+}
+
+.ms-left .session2{
+	background:url(../imgs/p_img2_L.png)no-repeat top right;
+	background-size:cover;
+}
