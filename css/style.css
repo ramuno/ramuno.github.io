@@ -45,37 +45,42 @@
     white-space: nowrap;
 }
 
+.ms-left .ms-section{
+	background:url(../imgs/top_L.png)no-repeat right;
+	background-size:cover;
+}
+
+.ms-right .ms-section{
+	background:url(../imgs/top_R.png)no-repeat left;
+	background-size:cover;
+}
+
 .ms-left .session1{
-	background:url(../imgs/p_img5_L.png)no-repeat top left;
+	background:url(../imgs/img1_L.png)no-repeat top right;
 	background-size:cover;
 }
 
 .ms-right .session1{
-	background:url(../imgs/p_img5_R.png)no-repeat top left;
+	background:url(../imgs/img1_R.png)no-repeat top left;
 	background-size:cover;
 }
 
-/*.ms-right .session1{
-	background:url(../imgs/p_img1_R.png)no-repeat top left;
-	background-size:cover;
-}
-
-.ms-left .session1{
-	background:url(../imgs/p_img1_L.png)no-repeat top right;
-	background-size:cover;
-}*/
 .ms-right .session2{
-	background:url(../imgs/p_img2_R.png)no-repeat top left;
+	background:url(../imgs/img2_R.png)no-repeat top left;
 	background-size:cover;
 }
 
 .ms-left .session2{
-	background:url(../imgs/p_img2_L.png)no-repeat top right;
+	background:url(../imgs/img2_L.png)no-repeat top right;
 	background-size:cover;
 }
 
-.ms-right .session2 .h2{
-    font-size: 2em;
-	color:pink;
-	-webkit-text-stroke: 0.5px black;
+.ms-right .session3{
+	background:url(../imgs/img3_R.png)no-repeat top left;
+	background-size:cover;
+}
+
+.ms-left .session3{
+	background:url(../imgs/img3_L.jpg)no-repeat top right;
+	background-size:cover;
 }
