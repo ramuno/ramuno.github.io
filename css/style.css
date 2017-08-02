@@ -65,22 +65,22 @@
 	background-size:cover;
 }
 
-.ms-right .session2{
-	background:url(../imgs/img2_R.png)no-repeat top left;
-	background-size:cover;
-}
-
 .ms-left .session2{
 	background:url(../imgs/img2_L.png)no-repeat top right;
 	background-size:cover;
 }
 
-.ms-right .session3{
-	background:url(../imgs/img3_R.png)no-repeat top left;
+.ms-right .session2{
+	background:url(../imgs/img2_R.png)no-repeat top left;
 	background-size:cover;
 }
 
 .ms-left .session3{
 	background:url(../imgs/img3_L.png)no-repeat top right;
+	background-size:cover;
+}
+
+.ms-right .session3{
+	background:url(../imgs/img3_R.png)no-repeat top left;
 	background-size:cover;
 }
